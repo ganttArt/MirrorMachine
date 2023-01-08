@@ -4,4 +4,4 @@ This program was designed to randomly take a section of an image, rotate it, and
 
 ![Mirror Machine Desktop View](example1.png)
 
-**Watch the app in action with this youtube walkthrough:** [https://youtu.be/YUfcKLVz8sk](https://youtu.be/YUfcKLVz8sk)
+**Watch the app in action in this walkthrough video:** [https://youtu.be/YUfcKLVz8sk](https://youtu.be/YUfcKLVz8sk)
