@@ -1,18 +1,3 @@
-/*
- Mirror Machine 
- Chris Gantt | 2018 | facebook.com/gantt.art
-
- This program was designed to randomly take a section of an image, rotate it, 
- and mirror it across the y-axis to create a new symmetrical design. With a built-in
- gui, controlP5, Mirror Machine allows you to change the rotation and the percent of
- the image that is mirrored in real time. 
- 
- Compatible with Processing version 3.3.7
- Requires controlP5 library http://www.sojamo.de/libraries/controlP5/#installation
-   -upon downloading and unzipping the folder, place the controlP5 folder inside
-    the Processing/libraries folder.
-*/
-
 import controlP5.*;
 ControlP5 cp5;
 
@@ -37,8 +22,8 @@ void setup() {
   if (img.height!=displayHeight) {
     img.resize(0, displayHeight);
   }
-PFont verdanaFont = createFont("Verdana", 11); 
-ControlFont font = new ControlFont(verdanaFont);  
+  PFont verdanaFont = createFont("Verdana", 11); 
+  ControlFont font = new ControlFont(verdanaFont);  
 
   cp5 = new ControlP5(this);
   cp5.setFont(font);
