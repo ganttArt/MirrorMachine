@@ -2,6 +2,8 @@
 
 ## To Dont's
 
+These updates would have some benefit, but for each the time investment to payoff ratio is questionable.
+
 - Refactoring code into one mirroring function
   - Makes sense todo for readability, but requires a lot of time and diving into the code with little payoff
 - Web application: p5.js + vanilla javascript
